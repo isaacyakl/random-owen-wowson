@@ -1,7 +1,10 @@
-from fileinput import filename
+from dotenv import load_dotenv
 import hikari
 import lightbulb
 import requests
+import os
+
+load_dotenv()
 
 bot = lightbulb.BotApp(
     token=os.getenv('TOKEN'),

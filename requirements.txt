@@ -11,6 +11,7 @@ hikari==2.0.0.dev108
 hikari-lightbulb==2.2.1
 idna==3.3
 multidict==6.0.2
+python-dotenv==0.20.0
 requests==2.27.1
 urllib3==1.26.9
 yarl==1.7.2

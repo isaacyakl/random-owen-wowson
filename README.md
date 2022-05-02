@@ -27,22 +27,6 @@ TOKEN=<discord_token>
 python bot.py
 ```
 
-## Monitor the bot's status (Health Check)
+## Monitor the bot's status
 
-A Flask app is included to indicate the status of the bot.
-
-### Setup the bot status app
-
-Add the following to the `.env` file, on a newline:
-
-```
-FLASK_APP=status
-```
-
-### Run the bot status app
-
-(Linux only)
-
-```
-gunicorn bot:app
-```
+A simple HTTP serve is included to monitor the status of the bot. Visit any route/page on port 80 to check if the bot is up.

@@ -1,9 +1,10 @@
-from dotenv import load_dotenv
+#bot.py
 import hikari
 import lightbulb
 import requests
 import os
 
+from dotenv import load_dotenv
 load_dotenv()
 
 bot = lightbulb.BotApp(

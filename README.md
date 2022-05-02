@@ -29,4 +29,4 @@ python bot.py
 
 ## Monitor the bot's status
 
-A simple HTTP server is included to monitor the status of the bot. Visit any route/page to check if the bot is up.
+A simple HTTP server is included to monitor the status of the bot on port 8000. Visit any route/page to [check if the bot is up](http://localhost:8000/status).

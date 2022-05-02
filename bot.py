@@ -19,7 +19,7 @@ class handler(BaseHTTPRequestHandler):
         message = "Random Owen WOWson is running."
         self.wfile.write(bytes(message, "utf8"))
 
-server = HTTPServer(('', 80), handler)
+server = HTTPServer(('', 8000), handler)
 
 def serve_forever(s):
     with s:

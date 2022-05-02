@@ -10,6 +10,6 @@ app = Flask(__name__)
 def index():
     return ""
 
-@app.route('/health')
-def health():
+@app.route('/status')
+def status():
     return ""

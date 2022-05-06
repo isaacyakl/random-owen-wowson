@@ -2,6 +2,9 @@
 
 A discord bot to send random Owen Wilson "wow" clips. Powered by The Owen Wilson Wow API: https://owen-wilson-wow-api.herokuapp.com/
 
+![WOW clip screenshot](row-ss1.jpg)
+![/WOW command](row-ss2.jpg)
+
 ## Setup the bot
 
 ### 1. Get a Bot token

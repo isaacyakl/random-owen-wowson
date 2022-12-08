@@ -42,7 +42,7 @@ async def on_started(event):
 @lightbulb.command('wow', 'Send a random Owen Wilson "wow" clip')
 @lightbulb.implements(lightbulb.SlashCommand)
 async def wow(ctx):
-    response = requests.get("https://owen-wilson-wow-api.herokuapp.com/wows/random")
+    response = requests.get("https://owen-wilson-wow-api.onrender.com/wows/random")
     if response.status_code == 200:
         data = response.json()[0]
         print(f'{ctx.member.display_name} issued {data["video"]["720p"]}')

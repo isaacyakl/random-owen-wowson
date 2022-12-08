@@ -1,6 +1,6 @@
 # random-owen-wowson
 
-A Discord bot to send random Owen Wilson "wow" clips. Powered by the [Owen Wilson Wow API](https://owen-wilson-wow-api.herokuapp.com/). This bot is written using the [hikari](https://github.com/hikari-py/hikari) and [hikari-lightbulb](https://github.com/tandemdude/hikari-lightbulb) Python libraries for Discord. It features a small HTTPServer for checking the "up" status of the bot which is designed for use with free services where the bot needs to be "pinged" to keep it alive.
+A Discord bot to send random Owen Wilson "wow" clips. Powered by the [Owen Wilson Wow API](https://owen-wilson-wow-api.onrender.com/). This bot is written using the [hikari](https://github.com/hikari-py/hikari) and [hikari-lightbulb](https://github.com/tandemdude/hikari-lightbulb) Python libraries for Discord. It features a small HTTPServer for checking the "up" status of the bot which is designed for use with free services where the bot needs to be "pinged" to keep it alive.
 
 ![WOW clip screenshot](row-ss1.jpg)
 ![/WOW command](row-ss2.jpg)
